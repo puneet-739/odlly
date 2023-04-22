@@ -1,4 +1,7 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
+import 'package:odlly/constants/constants.dart';
 import 'package:odlly/pages/homeScreen.dart';
 import 'package:odlly/pages/welcomeScreen.dart';
 
@@ -11,17 +14,19 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int ranNum = Random().nextInt(9);
     return MaterialApp(
       title: 'odLly',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        // primarySwatch: Constants.oddlyColorList[ranNum]
+        // primarySwatch: Constants.oddlyColorList[ranNum]
       ),
-      home: Scaffold(
+      home: const Scaffold(
         // appBar: AppBar(
         //   title: Text("odLly"),
         // ),
-          body: const WelcomeScreen()),
+          body: WelcomeScreen()),
     );
   }
 }
