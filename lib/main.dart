@@ -19,8 +19,9 @@ class MyApp extends StatelessWidget {
       title: 'odLly',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        primarySwatch: Colors.orange
         // primarySwatch: Constants.oddlyColorList[ranNum]
-        // primarySwatch: Constants.oddlyColorList[ranNum]
+
       ),
       home: const Scaffold(
         // appBar: AppBar(
