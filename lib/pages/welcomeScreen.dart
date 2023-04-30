@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:odlly/constants/constants.dart';
+import 'package:odlly/pages/four_strip.dart';
 import 'package:odlly/pages/homeScreen.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -34,7 +35,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                  ),
                ),
                MaterialButton(onPressed: () {
-                 Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                 // Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => FourStripNumbers()));
                },
                  color: Constants.oddlyColorList[ranNum],
                  textColor: Colors.white,
