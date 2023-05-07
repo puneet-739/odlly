@@ -6,6 +6,8 @@ import 'package:odlly/pages/four_strip.dart';
 import 'package:odlly/pages/homeScreen.dart';
 import 'package:odlly/pages/ramanujan_magic_square.dart';
 
+import 'home_body.dart';
+
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
 
@@ -36,11 +38,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                  ),
                ),
                MaterialButton(onPressed: () {
-                 // Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                 // Navigator.push(context, MaterialPageRoute(builder: (context) => SuffleColorMatrix()));
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => HomeBase()));
                  // Navigator.push(context, MaterialPageRoute(builder: (context) => FourStripNumbers()));
-                 Navigator.push(context, MaterialPageRoute(builder: (context) => MagicSquare()));
+                 // Navigator.push(context, MaterialPageRoute(builder: (context) => MagicSquare()));
                },
-                 color: Constants.oddlyColorList[ranNum],
+                 color: Constants.odllyColorList[ranNum],
                  textColor: Colors.white,
                  elevation: 10,
                  height: 50,

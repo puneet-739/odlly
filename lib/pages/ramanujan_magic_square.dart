@@ -19,7 +19,7 @@ class _MagicSquareState extends State<MagicSquare> {
         child: Scaffold(
           appBar: PreferredSize(
             preferredSize: Size.fromHeight(60),
-            child: AppBarOddly(
+            child: AppBarOdlly(
               title: "Magic Square",
             ),
           ),

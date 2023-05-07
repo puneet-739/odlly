@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 
-class AppBarOddly extends StatefulWidget {
+class AppBarOdlly extends StatefulWidget {
   final String title;
-  const AppBarOddly({Key? key, this.title = ''}) : super(key: key);
+  const AppBarOdlly({Key? key, this.title = ''}) : super(key: key);
 
   @override
-  State<AppBarOddly> createState() => _AppBarOddlyState();
+  State<AppBarOdlly> createState() => _AppBarOdllyState();
 }
 
-class _AppBarOddlyState extends State<AppBarOddly> {
+class _AppBarOdllyState extends State<AppBarOdlly> {
   @override
   Widget build(BuildContext context) {
     return AppBar(

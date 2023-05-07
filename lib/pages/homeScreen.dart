@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:odlly/Elements/oddly_app_bar.dart';
 
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class SuffleColorMatrix extends StatefulWidget {
+  const SuffleColorMatrix({Key? key}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<SuffleColorMatrix> createState() => _SuffleColorMatrixState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _SuffleColorMatrixState extends State<SuffleColorMatrix> {
   List colorsList = [
     Colors.red, Colors.pinkAccent, Colors.orange,
     Colors.green, Colors.greenAccent, Colors.lightGreen,
@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Material(
             child: Scaffold(
               appBar: const PreferredSize(preferredSize: Size.fromHeight(60),
-              child: AppBarOddly(title: 'oddly',)),
+              child: AppBarOdlly(title: 'odlly',)),
               body: Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,

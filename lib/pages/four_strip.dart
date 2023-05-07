@@ -11,7 +11,7 @@ class FourStripNumbers extends StatelessWidget {
         child: Material(
             child: Scaffold(
               appBar: const PreferredSize(preferredSize: Size.fromHeight(60.0),
-              child: AppBarOddly(title: 'oddly',)),
+              child: AppBarOdlly(title: 'oddly',)),
                 body: Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,

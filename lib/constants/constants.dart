@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Constants {
   static int a = 1;
-  static List<MaterialColor> oddlyColorList = const [
+  static List<MaterialColor> odllyColorList = const [
     MaterialColor(0xFFF44336, {500: Color(0xFFF44336)}),
     MaterialColor(0xFFFF4081, {500: Color(0xFFFF4081)}),
     MaterialColor(0xFFFF9800, {500: Color(0xFFFF9800)}),
@@ -27,7 +27,7 @@ class Constants {
     0xFF448AFF,
     0xFF03A9F4
   ];
-  static List<MaterialColor> oddlyColors = [];
+  static List<MaterialColor> odllyColors = [];
   // Constants() {
   //   oddlyColors = List.generate(9, (index) {
   //     var color = colorList[index];

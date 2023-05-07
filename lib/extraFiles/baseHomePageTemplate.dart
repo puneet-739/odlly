@@ -21,7 +21,7 @@ class _HomeScreenTemplateState extends State<HomeScreenTemplate> {
         child: Material(
           child: Scaffold(
             appBar: const PreferredSize(preferredSize: Size.fromHeight(60),
-                child: AppBarOddly(title: 'oddly',)),
+                child: AppBarOdlly(title: 'oddly',)),
             body: Center(
               child: Container(
                 height: 300,
