@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:odlly/constants/constants.dart';
 import 'package:odlly/pages/four_strip.dart';
 import 'package:odlly/pages/homeScreen.dart';
+import 'package:odlly/pages/ramanujan_magic_square.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -36,7 +37,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                ),
                MaterialButton(onPressed: () {
                  // Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
-                 Navigator.push(context, MaterialPageRoute(builder: (context) => FourStripNumbers()));
+                 // Navigator.push(context, MaterialPageRoute(builder: (context) => FourStripNumbers()));
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => MagicSquare()));
                },
                  color: Constants.oddlyColorList[ranNum],
                  textColor: Colors.white,
