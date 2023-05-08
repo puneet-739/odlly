@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:odlly/pages/homeScreen.dart';
+import 'package:odlly/pages/suffle_color_matrix.dart';
 
 import '../Elements/oddly_app_bar.dart';
 

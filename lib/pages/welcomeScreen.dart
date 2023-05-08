@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:odlly/constants/constants.dart';
 import 'package:odlly/pages/four_strip.dart';
-import 'package:odlly/pages/homeScreen.dart';
+import 'package:odlly/pages/suffle_color_matrix.dart';
 import 'package:odlly/pages/ramanujan_magic_square.dart';
 
 import 'home_body.dart';
@@ -38,8 +38,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                  ),
                ),
                MaterialButton(onPressed: () {
-                 // Navigator.push(context, MaterialPageRoute(builder: (context) => SuffleColorMatrix()));
-                 Navigator.push(context, MaterialPageRoute(builder: (context) => HomeBase()));
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => SuffleColorMatrix()));
+                 // Navigator.push(context, MaterialPageRoute(builder: (context) => HomeBase()));
                  // Navigator.push(context, MaterialPageRoute(builder: (context) => FourStripNumbers()));
                  // Navigator.push(context, MaterialPageRoute(builder: (context) => MagicSquare()));
                },
