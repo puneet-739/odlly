@@ -4,13 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:odlly/Elements/oddly_app_bar.dart';
 import 'package:collection/collection.dart';
 
-// extension SwappableList<E> on List<E> {
-//   void swapList(int first, int second) {
-//     final temp = this[first];
-//     this[first] = this[second];
-//     this[second] = temp;
-//   }
-// }
 
 class SuffleColorMatrix extends StatefulWidget {
   const SuffleColorMatrix({Key? key}) : super(key: key);
