@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:odlly/constants/constants.dart';
 import 'package:odlly/pages/suffle_color_matrix.dart';
-import 'package:odlly/pages/welcomeScreen.dart';
+import 'package:odlly/pages/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
       title: 'odLly',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.cyan
+        primarySwatch: Colors.cyan,
+        fontFamily: 'Laila'
         // primarySwatch: Constants.oddlyColorList[ranNum]
 
       ),
