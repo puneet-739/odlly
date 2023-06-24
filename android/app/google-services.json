@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665957551103",
+    "project_id": "odlly-firebase",
+    "storage_bucket": "odlly-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665957551103:android:d0314c1d73ee2ac6c335ca",
+        "android_client_info": {
+          "package_name": "com.example.odlly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665957551103-78n1ovgb1i6s42ek5olhitcqqu28dris.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByN07bi9N4vf5gA1RD82k9GY_4FP-d6ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665957551103-78n1ovgb1i6s42ek5olhitcqqu28dris.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
